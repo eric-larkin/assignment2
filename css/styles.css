@@ -1,0 +1,62 @@
+html {
+  background-color: #f5f5f5;
+}
+span {
+  font-family: 'Sansita', sans-serif;
+}
+form {
+  max-width: 500px;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+select {
+  height: 2em; /* line-height doesn't work, as seen in style below */
+}
+div.formOptions {
+  box-sizing: border-box;;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+div.inputError {
+  color: red;
+  font-size: 12px;
+}
+input[type="text"], select {
+    width: 100%;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+}
+.oneHalf {
+  float: left;
+  width: 50%;
+}
+.oneThird {
+  float: left;
+  width: 33%;
+}
+.fullWidth {
+  width: 100%;
+}
+.inputError img {
+  margin-right: 5px;
+  float: left;
+  margin-left: 5px;
+}
+#submit {
+  height: 30px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #fdfdfd;
+  border: 1px solid #797979;
+}
+#submit:hover {
+    background-color: #cacaca;
+    border: 2px solid white;
+}
+#submit:focus {
+    background: #e0e0e0;
+    outline: none;
+}
